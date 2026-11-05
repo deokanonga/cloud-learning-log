@@ -17,6 +17,7 @@ Daily hands-on AWS and DevOps labs. Every day follows the same loop:
 | 2026-10-29 | [NAT gateway and private subnets](2026-10-29-vpc-day-4.md) | NAT in public subnet, packet path, IGW vs NAT, deleted same day (~3 cents) |
 | 2026-10-30 | [Security groups vs network ACLs](2026-10-30-vpc-day-5.md) | web-sg (80/443, no SSH), stateful vs stateless, ephemeral ports, broken NACL built for next week |
 | 2026-11-03 | [CloudWatch + CloudTrail](2026-11-03-cloudwatch-cloudtrail.md) | Found a real bug via 0 Lambda invocations; tested an alarm to SNS email; built a dashboard; traced a deploy and a security group change in CloudTrail; created a trail to S3 |
+| 2026-11-04 | [AWS Config](2026-11-04-aws-config.md) | Recorded security groups; restricted-ssh rule caught SSH open to 0.0.0.0/0 (Noncompliant), fixed it back to Compliant; read the resource timeline and JSON diff; detective vs preventive controls |
 
 ## Projects built along the way
 - [Serverless Photography Website](https://github.com/deokanonga/serverless-photography-website)
