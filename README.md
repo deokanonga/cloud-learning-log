@@ -19,6 +19,7 @@ Daily hands-on AWS and DevOps labs. Every day follows the same loop:
 | 2026-11-03 | [CloudWatch + CloudTrail](2026-11-03-cloudwatch-cloudtrail.md) | Found a real bug via 0 Lambda invocations; tested an alarm to SNS email; built a dashboard; traced a deploy and a security group change in CloudTrail; created a trail to S3 |
 | 2026-11-04 | [AWS Config](2026-11-04-aws-config.md) | Recorded security groups; restricted-ssh rule caught SSH open to 0.0.0.0/0 (Noncompliant), fixed it back to Compliant; read the resource timeline and JSON diff; detective vs preventive controls |
 | 2026-11-05 | [Project 3: EC2 web server](2026-11-05-project-3-ec2-web-server.md) | EC2 in deo-lab-vpc with user data, Session Manager (no SSH/keys), CPU alarm to SNS triggered for real, broke and fixed a NACL (port 80 + 1024–65535 reply ports) |
+| 2026-11-09 | [S3 versioning + lifecycle](2026-11-09-s3-versioning.md) | Versioned bucket, recovered a deleted file by removing its delete marker, lifecycle rule for noncurrent versions (30 days), broke it by suspending versioning (null version overwrote version 1) |
 
 ## Projects built along the way
 - [Serverless Photography Website](https://github.com/deokanonga/serverless-photography-website)
