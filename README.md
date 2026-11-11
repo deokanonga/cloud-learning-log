@@ -21,6 +21,7 @@ Daily hands-on AWS and DevOps labs. Every day follows the same loop:
 | 2026-11-05 | [Project 3: EC2 web server](2026-11-05-project-3-ec2-web-server.md) | EC2 in deo-lab-vpc with user data, Session Manager (no SSH/keys), CPU alarm to SNS triggered for real, broke and fixed a NACL (port 80 + 1024–65535 reply ports) |
 | 2026-11-09 | [S3 versioning + lifecycle](2026-11-09-s3-versioning.md) | Versioned bucket, recovered a deleted file by removing its delete marker, lifecycle rule for noncurrent versions (30 days), broke it by suspending versioning (null version overwrote version 1) |
 | 2026-11-10 | [S3 storage classes + encryption](2026-11-10-s3-storage-classes-encryption.md) | Uploaded objects to Standard-IA and Glacier, lifecycle transitions (30/90/365 days), restored an archived object, lifecycle vs Intelligent-Tiering, SSE-S3 vs SSE-KMS |
+| 2026-11-11 | [DynamoDB PITR + deletion protection](2026-11-11-dynamodb-pitr-restore.md) | Enabled point-in-time recovery on the live Inquiries table, deleted a test record and recovered it via restore to a new table, copied it back, enabled deletion protection |
 
 ## Projects built along the way
 - [Serverless Photography Website](https://github.com/deokanonga/serverless-photography-website)
