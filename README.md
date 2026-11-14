@@ -23,6 +23,7 @@ Daily hands-on AWS and DevOps labs. Every day follows the same loop:
 | 2026-11-10 | [S3 storage classes + encryption](2026-11-10-s3-storage-classes-encryption.md) | Uploaded objects to Standard-IA and Glacier, lifecycle transitions (30/90/365 days), restored an archived object, lifecycle vs Intelligent-Tiering, SSE-S3 vs SSE-KMS |
 | 2026-11-11 | [DynamoDB PITR + deletion protection](2026-11-11-dynamodb-pitr-restore.md) | Enabled point-in-time recovery on the live Inquiries table, deleted a test record and recovered it via restore to a new table, copied it back, enabled deletion protection |
 | 2026-11-12 | [AWS Backup + backup plans](2026-11-12-aws-backup.md) | Vault, daily plan with 35 day retention, assigned the Inquiries table, ran an on-demand backup and restored it to a new table (10 items, no PITR or deletion protection), PITR vs backup plan |
+| 2026-11-13 | [Gallery v1: private bucket + presigned URLs](2026-11-13-gallery-v1-presigned-urls.md) | Private bucket with Block Public Access, presigned link opened a photo in incognito and expired after 15 min, read AccessDenied variants, lifecycle to Deep Archive for originals |
 
 ## Projects built along the way
 - [Serverless Photography Website](https://github.com/deokanonga/serverless-photography-website)
