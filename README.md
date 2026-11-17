@@ -24,6 +24,7 @@ Daily hands-on AWS and DevOps labs. Every day follows the same loop:
 | 2026-11-11 | [DynamoDB PITR + deletion protection](2026-11-11-dynamodb-pitr-restore.md) | Enabled point-in-time recovery on the live Inquiries table, deleted a test record and recovered it via restore to a new table, copied it back, enabled deletion protection |
 | 2026-11-12 | [AWS Backup + backup plans](2026-11-12-aws-backup.md) | Vault, daily plan with 35 day retention, assigned the Inquiries table, ran an on-demand backup and restored it to a new table (10 items, no PITR or deletion protection), PITR vs backup plan |
 | 2026-11-13 | [Gallery v1: private bucket + presigned URLs](2026-11-13-gallery-v1-presigned-urls.md) | Private bucket with Block Public Access, presigned link opened a photo in incognito and expired after 15 min, read AccessDenied variants, lifecycle to Deep Archive for originals |
+| 2026-11-16 | [IAM review: least-privilege role for the gallery](2026-11-16-iam-least-privilege-role.md) | Policy with GetObject on one folder, role trusted by Lambda, tested in the Policy Simulator (allowed, implicit deny), trust vs permissions policy, SCPs as a ceiling |
 
 ## Projects built along the way
 - [Serverless Photography Website](https://github.com/deokanonga/serverless-photography-website)
