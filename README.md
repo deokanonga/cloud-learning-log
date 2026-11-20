@@ -26,6 +26,7 @@ Daily hands-on AWS and DevOps labs. Every day follows the same loop:
 | 2026-11-13 | [Gallery v1: private bucket + presigned URLs](2026-11-13-gallery-v1-presigned-urls.md) | Private bucket with Block Public Access, presigned link opened a photo in incognito and expired after 15 min, read AccessDenied variants, lifecycle to Deep Archive for originals |
 | 2026-11-16 | [IAM review: least-privilege role for the gallery](2026-11-16-iam-least-privilege-role.md) | Policy with GetObject on one folder, role trusted by Lambda, tested in the Policy Simulator (allowed, implicit deny), trust vs permissions policy, SCPs as a ceiling |
 | 2026-11-17 | [Networking review: 3 breaks on purpose](2026-11-17-networking-review.md) | NACL deny order, stateless reply rule, deleting the IGW route turns a public subnet private |
+| 2026-11-18 | [Monitoring and auditing review: CloudTrail hunt, alarms, Config](2026-11-18-monitoring-auditing-review.md) | Who deleted the route, Insufficient data alarms, Config history only while recording |
 
 ## Projects built along the way
 - [Serverless Photography Website](https://github.com/deokanonga/serverless-photography-website)
