@@ -30,6 +30,7 @@ Daily hands-on AWS and DevOps labs. Every day follows the same loop:
 | 2026-11-19 | [Storage and resilience: recover a file from an EBS snapshot](2026-11-19-storage-resilience-ebs-recovery.md) | S3 vs EBS vs EFS, snapshot restore, duplicate UUID mount error |
 | 2026-11-20 | [Practice assessment and SSH opened alert](2026-11-20-practice-assessment-ssh-alert.md) | Timed set 10/12, EventBridge rule + SNS email when SSH opens, why delete does not alert |
 | 2026-11-21 | [Domain transfer to Route 53 and DNS move](2026-11-21-domain-transfer-route53-dns.md) | Registrar vs DNS, compared both zones, name servers to AWS, Cognito allow-lists |
+| 2026-11-23 | [Readiness assessment, practice test 2](2026-11-23-readiness-assessment.md) | Timed set 9/12 (75%), IAM and CloudTrail gaps, exam date decided by test 3 |
 
 ## Projects built along the way
 - [Serverless Photography Website](https://github.com/deokanonga/serverless-photography-website)
