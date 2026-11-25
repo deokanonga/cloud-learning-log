@@ -31,6 +31,7 @@ Daily hands-on AWS and DevOps labs. Every day follows the same loop:
 | 2026-11-20 | [Practice assessment and SSH opened alert](2026-11-20-practice-assessment-ssh-alert.md) | Timed set 10/12, EventBridge rule + SNS email when SSH opens, why delete does not alert |
 | 2026-11-21 | [Domain transfer to Route 53 and DNS move](2026-11-21-domain-transfer-route53-dns.md) | Registrar vs DNS, compared both zones, name servers to AWS, Cognito allow-lists |
 | 2026-11-23 | [Readiness assessment, practice test 2](2026-11-23-readiness-assessment.md) | Timed set 9/12 (75%), IAM and CloudTrail gaps, exam date decided by test 3 |
+| 2026-11-24 | [IAM lab: trust vs permissions, explicit deny](2026-11-24-iam-trust-vs-permissions-lab.md) | Assumed a role from the CLI, wrong trust policy blocks AssumeRole, explicit Deny beats Allow, reading the two deny error sentences |
 
 ## Projects built along the way
 - [Serverless Photography Website](https://github.com/deokanonga/serverless-photography-website)
